@@ -1,0 +1,195 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+body {
+    background-color: #d4e1e8;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 100px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.pfp {
+    transition: .5s;
+}
+.pfp:hover {
+    transform: rotate(-360deg);
+}
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: #dbdbdb;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 600;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: white;
+    transition: .3s;
+}
+.texts {
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+    overflow: hidden;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both; /* 애니메이션이 끝난 후 상태 유지 */
+    -webkit-animation-name: fadein; /* Safari and Chrome */
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-name: fadein; /* Firefox */
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-fill-mode: both;
+    -o-animation-name: fadein; /* Opera */
+    -o-animation-duration: 1s;
+    -o-animation-delay: 0.5s;
+    -o-animation-fill-mode: both;
+}
+.texts button.naver {
+    outline: none;
+    outline-width: 2px;
+    background-color: #03C75A;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    border-radius: 64px;
+}
+.texts button.naver:hover {
+    background-color: #35D27B;
+}
+.texts button.naver:active {
+    background-color: #029F48;
+}
+.texts button.gmail {
+    outline: none;
+    outline-width: 2px;
+    background-color: #EA4335;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    border-radius: 64px;
+}
+.texts button.gmail:hover {
+    background-color: #EE695D;
+}
+.texts button.gmail:active {
+    background-color: #BB362A;
+}
+.texts button.discord {
+    outline: none;
+    outline-width: 2px;
+    background-color: #5865F2;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    border-radius: 64px;
+}
+.texts button.discord:hover {
+    background-color: #8891f2;
+}
+.texts button.discord:active {
+    background-color: #3442d9;
+}
+.texts button.github {
+    outline: none;
+    outline-width: 2px;
+    background-color: #24292e;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    border-radius: 64px;
+}
+.texts button.github:hover {
+    background-color: #434c54;
+}
+.texts button.github:active {
+    background-color: #111315;
+}
+.texts button.youtube {
+    outline: none;
+    outline-width: 2px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    border-radius: 64px;
+}
+.texts button.youtube:hover {
+    background-color: #FF4D4D;
+}
+.texts button.youtube:active {
+    background-color: #CC0000;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.1s ease-out;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    width: 246px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
