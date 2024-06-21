@@ -45,12 +45,11 @@ div {
     transition: .3s;
 }
 .content {
-    padding: 20px;
-    width: 200vh;
-    display: table-cell;
-    height: 100vh;
+    position: absolute;
     text-align: center;
-    padding-top: 45vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     animation-name: fadein;
     animation-duration: 1s;
     animation-delay: 0.5s;

@@ -42,10 +42,11 @@ body {
     transition: .3s;
 }
 .texts {
-    width: 100%;
-    padding-top: 15%;
+    position: absolute;
     text-align: center;
-    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     animation-name: fadein;
     animation-duration: 1s;
     animation-delay: 0.5s;
